@@ -1,0 +1,37 @@
+.new-Goal {
+  background-color: rgb(255, 255, 255);
+  padding: 1rem;
+  margin: 2rem auto;
+  width: 50%;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.25);
+}
+
+.new-Goal button {
+  font: inherit;
+  cursor: pointer;
+  padding: 1rem 2rem;
+  border: 1px solid #8b005d;
+  background-color: #8b005d;
+  color: white;
+  border-radius: 12px;
+  margin-right: 1rem;
+}
+
+.new-Goal button:hover,
+.new-Goal button:active {
+  background-color: #9c0d6ccc;
+  border-color: #b31b80ae;
+}
+
+.new-Goal button.alternative {
+  color: #84125e;
+  border-color: transparent;
+  background-color: transparent;
+}
+
+.new-Goal button.alternative:hover,
+.new-Goal button.alternative:active {
+  background-color: #963174ae;
+}

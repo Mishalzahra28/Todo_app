@@ -1,0 +1,35 @@
+.Task-item__description {
+  padding: 10px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  background-color: #ffffffe8;
+  /* color: white; */
+  margin: 2rem auto;
+  width: 50rem;
+  max-width: 95%;
+  border-radius: 12px;
+  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.25);
+  text-align: center;
+}
+.new-Goal__actions {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  text-align: center;
+  /* margin: 20px; */
+  display: block;
+}
+.new-Goal__btn {
+  font: inherit;
+  cursor: pointer;
+  width: 20px 40px;
+  padding: 5px 10px;
+  border: 1px solid#8b005d;
+  background-color: #8b005d;
+  color: white;
+  border-radius: 5px;
+  margin-right: 1rem;
+}
+
+.new-Goal__btn:hover,
+.new-Goal__btn :active {
+  background-color: #9c0d6ccc;
+  border-color: #b31b80ae;
+}
